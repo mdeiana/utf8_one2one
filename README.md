@@ -1,4 +1,4 @@
-# utf8_one2one, index array of UTF-8 multibyte chars 1:1.
+# utf8_one2one, index array of UTF-8 multibyte chars 1:1
 Access Nth Unicode Multibyte Character in `string` as `string[N]`.
 
 ## Quick, how do I use this lib?
@@ -33,7 +33,7 @@ int main(void){
 
 	string32[8] = 0xE282AC;				// to exemplify, change the 9th element to €
 							// if necessary, you can print, will soon
-	fprintf8(0, NULL);			// support choosing output stream for sure
+	fprintf8(0, NULL);				// support choosing output stream for sure
 
 	free32(0);					// remember to free with free32, this
 							// takes care of the string and then
