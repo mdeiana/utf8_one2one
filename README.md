@@ -8,7 +8,7 @@ int main(void){
 	uint32_t *string;
 	string = fileto32(FILE_NAME);	// read string from file and get pointer
 
-	string32[8] = 0xE282AC;		// or whatever operation on chars
+	string[8] = 0xE282AC;		// or whatever operation on chars
 	fprintf8(0, NULL);      	// print string to stdout as UTF-8
 
 	free32(-1);			// free all strings and library objects.
@@ -31,7 +31,7 @@ int main(void){
 	 * ...
 	*/
 
-	string32[8] = 0xE282AC;				// to exemplify, change the 9th element to €
+	string[8] = 0xE282AC;				// to exemplify, change the 9th element to €
 							// if necessary, you can print, will soon
 	fprintf8(0, NULL);				// support choosing output stream for sure
 
