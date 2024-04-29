@@ -140,7 +140,6 @@ uint32_t* fileto32(char* file_name){
         printf("\nWarning: multiple file streams aren't currently supported.\n"
                 "uint32_t string is deallocated and stream reinitialized.");
         instances[0].vtbl->free_buffer(instances);
-        printf("\nNevermind, I got it. Lol");
         free(instances);
         instances = NULL;
         instances_num--;
